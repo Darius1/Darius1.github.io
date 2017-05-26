@@ -1,16 +1,147 @@
 html {
-    background: #3498DB;
+    background-color: #F2F2F2;
 }
 
-h1 {
+.h1_headings {
     font-size: 50px;
     text-transform: uppercase;
     margin-top: 150px;
+    text-align: center;
+    color: #CC0000;
 }
 
 p,
 
-h1 {
+.h3_subtitle {
     text-align: center;
+}
+
+.img_wolf {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 300px;
+
+}
+
+.h5_resume {
+    text-align: center;
+}
+
+.resume_link {
+    text-decoration: none;
+    color: black;
+}
+
+.button_resume {
+    display: block;
+    margin: auto;
+}
+
+.navigation {
+    text-align: right;
+    padding: 30px;
+    background-color: #CC0000;
+
+}
+
+.navigation_unordered {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation_ordered {
+    padding: 6px 8px;
+    display: inline;
+
+}
+
+.navigation_link {
+    text-decoration: none;
     color: white;
+    font-size: 18px;
+}
+
+.navigation_link:hover {
+    text-decoration: none;
+    color: #660000;
+}
+
+.section_about {
+    background-color: #F2F2F2;
+}
+
+.section_projects {
+    background-color: #F2F2F2;
+}
+
+.section_contact {
+    background-color: #F2F2F2;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 700px;
+}
+
+.form_label {
+    color: #CC0000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0px 10px;
+    margin: 10px 0px 20px;
+}
+
+.form_name {
+    display: block;
+    width: 700px;
+    height: 30px;
+    padding: 12px;
+    margin: 8px 0px 8px;
+    box-sizing: border-box;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+.form_email {
+    display: block;
+    width: 700px;
+    height: 30px;
+    padding: 12px;
+    margin: 8px 0px 8px;
+    box-sizing: border-box;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    resize: none;
+}
+
+.form_message {
+    display: block;
+    width: 700px;
+    height: 100px;
+    padding: 12px;
+    margin: 8px 0px 8px;
+    box-sizing: border-box;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    resize: none;
+}
+
+.button_submit {
+    display: block;
+    padding: 8px 10px 8px;
+    margin: 8px 0px 8px;
+}
+
+.footer {
+    background-color: #CC0000;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
