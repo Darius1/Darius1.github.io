@@ -9,15 +9,15 @@ html {
     margin-top: 150px;
     text-align: center;
     color: #CC0000;
-=======
     background: #3498DB;
 }
 
 
 }
 
-p,
-
+p {
+    text-align: center;
+}
 
 .h3_subtitle {
     text-align: center;
