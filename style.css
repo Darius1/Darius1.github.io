@@ -10,7 +10,9 @@ html {
     color: #CC0000;
 }
 
-p,
+p {
+    text-align: center;
+}
 
 .h3_subtitle {
     text-align: center;
