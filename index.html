@@ -1,53 +1,158 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<script src="https://use.fontawesome.com/35f16fde7f.js"></script>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Darius McFarland</title>
+
+        <style media="screen">
+            .bg-1 {
+                background-color: #CC0000;
+                color: black;
+            }
+
+            .bg-2 {
+                background-color: #F2F2F2;
+            }
+
+            .bg-3 {
+                background-color: white;
+            }
+
+            a {
+                color: black;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 17px;
+                text-decoration: none;
+            }
+
+            .jumbotron h1 {
+                font-family: Dosis, sans-serif;
+                font-size: 80px;
+            }
+
+            .jumbotron h2 {
+                font-family: Dosis, sans-serif;
+                font-size: 60px;
+                color: #CC0000;
+            }
+
+            .jumbotron p {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .jumbotron h4 {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .jumbotron h5 {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .jumbotron a:hover {
+                text-decoration: none;
+                color: #CC0000;
+            }
+
+        </style>
     </head>
+
     <body>
-        <header role="banner">
-            <nav role="navigation" class="navigation">
-                <ul class="navigation_unordered">
-                    <li class="navigation_ordered"><a href="#about" class="navigation_link">About</a></li>
-                    <li class="navigation_ordered"><a href="#projects" class="navigation_link">Projects</a></li>
-                    <li class="navigation_ordered"><a href="#contact" class="navigation_link">Contact Me</a></li>
-                </ul>
-            </nav>
-        </header>
-        <h1 class="h1_headings">Darius McFarland</h1>
-        <h3 class="h3_subtitle">Sophomore Computer Science Student at NC State University</h3>
-        <section id="about" class="section_about">
-            <h1 class="h1_headings">About</h1>
-            <img src="ncsu.png" alt="NC State Wolf" class="img_wolf">
-            <p class="p_about">Coming soon!</p>
-        </section>
-        <section id="projects" class="section_projects">
-            <h1 class="h1_headings">Projects</h1>
-            <p class="p_projects">Coming soon!</p>
-            <h5 class="h5_resume">I'm currently seeking new opportunities, if you would like to reach out to me, please download my resume</h5>
-                <button type="button" name="Download Resume Button" class="button_resume">
-                    <a href="DariusMcFarlandResume.pdf" class="resume_link"> Download My Resume </a>
-                </button>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        </section>
-        <section id="contact" class="section_contact">
-            <h1 class="h1_headings">Contact Me</h1>
-            <form class="form" action="mailto:ddariusmcfarland@gmail.com" enctype="text/plain" method="">
-                <label for="" class="form_label">Name</label>
-                <input type="text" name="" value="" autocapitalize=words class="form_name">
-                <label for="" class="form_label">Email</label>
-                <input type="email" name="" value="" class="form_email">
-                <label for="" class="form_label">Message</label>
-                <textarea name="text area" class="form_message"></textarea>
-                <button type="button" name="Submit" class="button_submit">Submit</button
-            </form>
-        </section>
+        <div class="container-fluid">
+            <div class="jumbotron bg-1 text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-7 col-sm-10">
+                            <h1 class="h1_headings">Darius McFarland</h1>
+                            <h4 class="h3_subtitle">Sophomore Computer Science Student at NC State University</h3>
+                        </div>
+                        <div class="col-xs-5 col-sm-2">
+                            <br>
+                            <img src="ncsu.png" alt="NC State Wolf" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <footer role="contentinfo" class="footer">
-            <p>
-                Created by Darius McFarland - 2017
-            </p>
-        </footer>
+        <div class="container-fluid ">
+            <div class="jumbotron bg-2">
+                <section id="about">
+                    <h2>About</h1>
+                        <div class="text-center">
+                            <p>Coming soon!</p>
+                        </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="jumbotron bg-3">
+                <section id="projects">
+                    <h2>Projects</h1>
+
+                    <div class="text-center">
+                        <p>Coming soon!</p>
+                        <br>
+                        <br>
+                        <h5>If you would like to reach out to me, please download my resume</h5>
+                        <br>
+                        <a href="DariusMcFarlandResume.pdf" class="btn btn-default" role="button">
+                            <span class="glyphicon glyphicon-download-alt"></span> Download My Resume
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                        <p>
+                            <a href="mailto:ddariusmcfarland@gmail.com">
+                                <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+                                ddariusmcfarland@gmail.com
+                            </a>
+                        </p>
+                        <a href="https://www.linkedin.com/in/darius-mcfarland-46235b12a/">
+                            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        </a>
+                </section>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center">
+                <footer role="contentinfo">
+                    <p>
+                        Created by Darius McFarland - 2017
+                    </p>
+                </footer>
+        </div>
     </body>
 </html>
