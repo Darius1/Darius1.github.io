@@ -11,10 +11,11 @@ html {
     color: #CC0000;
 }
 
-
+.p_about {
+    text-align: center;
 }
 
-p {
+.p_projects {
     text-align: center;
 }
 
