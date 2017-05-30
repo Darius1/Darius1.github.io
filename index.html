@@ -14,9 +14,30 @@
         <title>Darius McFarland</title>
 
         <style media="screen">
-            .bg-1 {
+            .jumbotron {
                 background-color: #CC0000;
                 color: black;
+                padding: 100px 25px;
+            }
+
+            .jumbotron p {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .container-fluid {
+                padding: 40px 20px;
+            }
+
+            @media screen and (max-width: 768px) {
+                .col-sm-4 {
+                    text-align: center;
+                    margin: 25px 0;
+                }
+            }
+
+            .logo-small {
+                color: #CC0000;
+                font-size: 80px;
             }
 
             .bg-2 {
@@ -34,33 +55,39 @@
                 text-decoration: none;
             }
 
-            .jumbotron h1 {
+            h1 {
                 font-family: Dosis, sans-serif;
-                font-size: 80px;
+
             }
 
-            .jumbotron h2 {
+            h2 {
                 font-family: Dosis, sans-serif;
-                font-size: 60px;
+                font-size: 40px;
                 color: #CC0000;
             }
 
-            .jumbotron p {
+            .p-section {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 17px;
+            }
+
+            .p-footer {
                 font-family: 'Open Sans', sans-serif;
             }
 
-            .jumbotron h4 {
+            h4 {
                 font-family: 'Open Sans', sans-serif;
             }
 
-            .jumbotron h5 {
+            h5 {
                 font-family: 'Open Sans', sans-serif;
             }
 
-            .jumbotron a:hover {
+            a:hover {
                 text-decoration: none;
                 color: #CC0000;
             }
+
 
         </style>
     </head>
@@ -85,13 +112,13 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
-            <div class="jumbotron bg-1 text-center">
+
+            <div class="jumbotron text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-10">
-                            <h1 class="h1_headings">Darius McFarland</h1>
-                            <h4 class="h3_subtitle">Sophomore Computer Science Student at NC State University</h3>
+                            <h1>Darius McFarland</h1>
+                            <p>Sophomore Computer Science Student at NC State University</p>
                         </div>
                         <div class="col-sm-2">
                             <br>
@@ -103,58 +130,59 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid ">
-            <div class="jumbotron bg-2">
-                <section id="about">
-                    <h2>About</h1>
-                        <div class="text-center">
-                            <p>Coming soon!</p>
-                        </div>
-                </section>
+
+        <div class="container-fluid bg-3">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-book logo-small"></span>
+                </div>
+                <div class="col-sm-8">
+                    <section id="about">
+                        <h2>About Me</h1>
+                        <p class="p-section">My name is Darius McFarland and I'm currently a sophomore Computer Science student at NC State University. Right now I'm learning Java and I have a basic understanding of HTML and CSS. My Computer Science interests include Cyber-Security and working with Big Data.
+                        <br>
+                        <br>
+                        If I had to list my three biggest strengths, I would say that I'm personable, passionate, and persistent.</p>
+                    </section>
+                </div>
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="jumbotron bg-3">
-                <section id="projects">
-                    <h2>Projects</h1>
-
-                    <div class="text-center">
-                        <p>Coming soon!</p>
-                        <br>
-                        <br>
-                        <h5>If you would like to reach out to me, please download my resume</h5>
-                        <br>
-                        <a href="DariusMcFarlandResume.pdf" class="btn btn-default" role="button">
-                            <span class="glyphicon glyphicon-download-alt"></span> Download My Resume
-                        </a>
-                    </div>
-                </section>
-            </div>
+        <div class="container-fluid bg-2">
+            <section id="projects">
+                <h2>Projects</h1>
+                <div class="text-center">
+                    <p class="p-section">Coming soon!</p>
+                    <br>
+                    <br>
+                    <h5>If you would like to reach out to me, please download my resume</h5>
+                    <br>
+                    <a href="DariusMcFarlandResume.pdf" class="btn btn-default" role="button">
+                        <span class="glyphicon glyphicon-download-alt"></span> Download My Resume
+                    </a>
+                </div>
+            </section>
         </div>
 
-        <div class="container-fluid">
-            <div class="jumbotron">
-                <section id="contact">
-                    <h2>Contact Me</h2>
-                        <a href="mailto:ddariusmcfarland@gmail.com">
-                            <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+        <div class="container-fluid bg-3">
+            <section id="contact">
+                <h2>Contact Me</h2>
+                    <a href="mailto:ddariusmcfarland@gmail.com">
+                        <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
                                 ddariusmcfarland@gmail.com
-                        </a>
-                        <br>
-                        <br>
-                        <a href="https://www.linkedin.com/in/darius-mcfarland-46235b12a/">
-                            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                        </a>
-                </section>
-            </div>
+                    </a>
+                    <br>
+                    <br>
+                    <a href="https://www.linkedin.com/in/darius-mcfarland-46235b12a/">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                    </a>
+            </section>
         </div>
 
         <div class="container-fluid text-center">
                 <footer role="contentinfo">
-                    <p>
+                    <p class="p-footer">
                         Created by Darius McFarland - 2017
                     </p>
                 </footer>
