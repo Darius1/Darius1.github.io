@@ -145,40 +145,131 @@
                 <div class="col-sm-8">
                     <section id="about">
                         <h2>About Me</h1>
-                        <p class="p-section">My name is Darius McFarland and I'm currently a sophomore Computer Science student at NC State University. Right now I'm learning Java and I have a basic understanding of HTML and CSS. My Computer Science interests include Cyber-Security and working with Big Data.
+                        <p class="p-section">My name is Darius McFarland and I'm a sophomore Computer Science student at NC State University. Right now I'm learning Java and I'm currently in the process of teaching myself Python. My Computer Science interests include Cyber-Security and working with Big Data.
                         <br>
                         <br>
-                        If I had to list my three biggest strengths, I would say that I'm personable, passionate, and persistent.</p>
+                        I'm the Academic Excellence Chair for the National Society of Black Engineers (NSBE) Chapter on campus, a member of a computer security club on campus called the NC State Hack Pack, and I'm also an Eagle Scout. As Academic Excellence Chair, I strive to ensure that our members are suceeding academically and are gaining the skills that they need to become high performers in the workplace. To accomplish this, I run study halls, bring in companies to give workplace advice to our members at meetings, and run soft skills workshops such as our annual etiquette dinner.
+                        <br>
+                        <br>
+                        I believe that my three biggest strengths are that I'm personable, passionate, and persistent.</p>
                     </section>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid bg-2">
-            <section id="projects">
-                <h2>Projects</h1>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="img-thumbnail">
-                                <a href="https://github.com/Darius1/ProjectGUI">
-                                    <img src="GUI.png" alt="GUI Screenshot" class="img-responsive">
-                                </a>
-                            </div>
+    <div class="container-fluid bg-2">
+        <section id="projects">
+            <h2>Projects</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="img-thumbnail">
+                            <a href="https://github.com/Darius1/ProjectGUI">
+                                <img src="GUI.png" alt="GUI Screenshot" class="img-responsive">
+                            </a>
                         </div>
-                        <div class="col-sm-8">
-                            <div>
-                                <h4><strong>ProjectGUI: </strong><em class="text-muted" >(Current Project)</em></h4>
-                                <p class="p-section">
-                                    This is a GUI to show off all of the programs I completed in my introductory Java class. It implements Java Swing to create the GUI and allows the user to
-                                    select a program from the list to run.
-                                <br>
-                                <br>
-                                This program allowed me to learn about the basics of creating a GUI in Java. I also learned about threading while creating this project so I could open the programs that implemented other Java classes such as the util class without running into EventQueue exceptions.
-                                </p>
-                            </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <div>
+                            <h4><strong>ProjectGUI: </strong></h4>
+                            <p class="p-section">
+                            This is a GUI to show off all of the programs I completed in my introductory Java class. It implements Java Swing to create the GUI and allows the user to
+                            select a program from the list to run.
+                            <br>
+                            <br>
+                            This program allowed me to learn about the basics of creating a GUI in Java. I also learned about threading while creating this project so I could open the programs that implemented other Java classes such as the util class without running into EventQueue exceptions.
+                            </p>
                         </div>
-                </section>
+                    </div>
+                </div>
+            </section>
         </div>
+
+        <div class="container-fluid bg-2">
+                <section id="projects">
+                    <h2></h2>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="img-thumbnail">
+                                    <img src="GeneralSearchFull.png" alt="Image of a standard search" class="img-responsive">
+                                </div>
+                                <br>
+                                <br>
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="NoArgs.png" alt="Usage information">
+                                            <div class="carousel-caption">
+                                                <h6>Usage information</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="ArtistSearch.png" alt="Search for a specific artist">
+                                            <div class="carousel-caption">
+                                                <h6>Artist search</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="OrderedSongs.png" alt="Ordered songs">
+                                            <div class="carousel-caption">
+                                                <h6>Alphabetized songs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                  <!-- Left and right controls -->
+                                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                                <div id="row_under_carousel">
+                                        <div class="caption-below">
+                                        <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <div>
+                                        <h4><strong>FindMusic: </strong><em class="text-muted" >(Current Project)</em></h4>
+                                        <p class="p-section">
+                                            This is program finds the music released by artists within the past two days. To accomplish this, the JSoup webscraping library is used on the website https://www.hotnewhiphop.com/. My goal for this program was to create a quick and easy way for me to check and see if any of my favorite artists had released any music recently.
+                                        <br>
+                                        <br>
+                                        I used the Apache Commons CLI API to turn the program into a command line program that takes in 5 different arguments. These arguments are artist, search, order, help, and version. If no arguments are supplied by the user, the usage information for the program is displayed.
+                                        <br>
+                                        <br>
+                                        The artist argument allows the user to specify a specific artist to search for and returns the songs that the specified artist released over the past two days. If the specified artist hasn't released any music, the user will receive the message "The artist you selected has not released any music today."
+                                        <br>
+                                        <br>
+                                        The search argument performs a general music search and will first return all of the songs released on the current day. After the current day has been checked, the user will have the option to check the songs released on the previous day.
+                                        <br>
+                                        <br>
+                                        The order argument finds all of the songs released over the past two days and returns them to the user in an alphabetized list.
+                                        <br>
+                                        <br>
+                                        The help argument displays the usage information, and the version argument displays the version information for the program.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                </div>
 
         <div class="container-fluid bg-3">
             <section id="contact">
@@ -210,5 +301,20 @@
                     </p>
                 </footer>
         </div>
+
+        <script>
+   $(function() {
+   $('.carousel').carousel();
+   var caption = $('div.item:nth-child(1) .carousel-caption');
+   $('#row_under_carousel span').html(caption.html());
+   caption.css('display','none');
+   $(".carousel").on('slide.bs.carousel', function(evt) {
+  var caption = $('div.item:nth-child(' + ($(evt.relatedTarget).index()+1) + ') .carousel-caption');
+  $('#row_under_carousel span').html(caption.html());
+  caption.css('display','none');
+   });
+   });
+   </script>
+
     </body>
 </html>
