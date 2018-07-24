@@ -121,7 +121,7 @@
                     <div class="row">
                         <div class="col-sm-10">
                             <h1>Darius McFarland</h1>
-                            <p>Sophomore Computer Science Student at NC State University</p>
+                            <p>Junior Computer Science Student at NC State University</p>
                         </div>
                         <div class="col-sm-2">
                             <br>
@@ -145,10 +145,13 @@
                 <div class="col-sm-8">
                     <section id="about">
                         <h2>About Me</h1>
-                        <p class="p-section">My name is Darius McFarland and I'm a sophomore Computer Science student at NC State University. Right now I'm learning Java and I'm currently in the process of teaching myself Python. My Computer Science interests include Cyber-Security and working with Big Data.
+                        <p class="p-section">My name is Darius McFarland and I'm a junior Computer Science student at NC State University. My Computer Science interests include Cyber-Security and working with Big Data, and I'm currently in the process of teaching myself Python and basic networking.
                         <br>
                         <br>
-                        I'm the Academic Excellence Chair for the National Society of Black Engineers (NSBE) Chapter on campus, a member of a computer security club on campus called the NC State Hack Pack, and I'm also an Eagle Scout. As Academic Excellence Chair, I strive to ensure that our members are succeeding academically and are gaining the skills that they need to become high performers in the workplace. To accomplish this, I run study halls, bring in companies to give workplace advice to our members at meetings, and run soft skills workshops such as our annual etiquette dinner.
+                        I'm the President of the National Society of Black Engineers (NSBE) Chapter on campus, a member of a computer security club on campus called the NC State Hack Pack, and I'm also an Eagle Scout. As President, I lead general body meetings, manage our executive board, and serve as the face of our chapter.
+                        <br>
+                        <br>
+                        This summer I'm interning at an IT company in Cary, NC called Blue Ally. I work in the Network and Security Operations Center (NSOC). I perform ticket monitoring and analysis, and I help maintain our network infrastructure within our office.
                         <br>
                         <br>
                         I believe that my three biggest strengths are that I'm personable, passionate, and persistent.</p>
@@ -171,7 +174,12 @@
 
                     <div class="col-sm-8">
                         <div>
-                            <h4><strong>ProjectGUI: </strong></h4>
+                            <h4>
+                                <a href="https://github.com/Darius1/ProjectGUI">
+                                    <strong>ProjectGUI: </strong>
+                                </a>
+                            </h4>
+
                             <p class="p-section">
                             This is a GUI to show off all of the programs I completed in my introductory Java class. It implements Java Swing to create the GUI and allows the user to
                             select a program from the list to run.
@@ -190,6 +198,11 @@
                     <h2></h2>
                         <div class="row">
                             <div class="col-sm-4">
+                                <div class="img-thumbnail">
+                                    <a href="https://github.com/Darius1/FindMusic">
+                                        <img src="defaultsearch.gif" alt="Gif of a standard search using the GUI" class="img-responsive">
+                                    </a>
+                                </div>
                                 <div class="img-thumbnail">
                                     <img src="GeneralSearchFull.png" alt="Image of a standard search" class="img-responsive">
                                 </div>
@@ -246,7 +259,13 @@
 
                                 <div class="col-sm-8">
                                     <div>
-                                        <h4><strong>FindMusic: </strong><em class="text-muted" >(Current Project)</em></h4>
+                                        <h4>
+                                            <a href="https://github.com/Darius1/FindMusic">
+                                                <strong>FindMusic: </strong>
+                                                <em class="text-muted" >(Current Project)</em>
+                                            </a>
+
+                                        </h4>
                                         <p class="p-section">
                                             This is program finds the music released by artists over the past two days. To accomplish this, the JSoup webscraping library is used on the website https://www.hotnewhiphop.com/. My goal for this program was to create a quick and easy way for me to check and see if any of my favorite artists had released any music recently.
                                         <br>
@@ -264,6 +283,15 @@
                                         <br>
                                         <br>
                                         The help argument displays the usage information, and the version argument displays the version information for the program.
+                                        <br>
+                                        <br>
+                                        I wanted to have a way to store previous searches peformed by the user, so I learned MySQL so I could incorporate a local MySQL database into the program to store previous song searches. This currently isn't incorporated into the program, but once I gain a better understanding of MySQL and can integrate it into the program without any additional setup by the user, I'll add this functionality to the program.
+                                        <br>
+                                        <br>
+                                        For the GUI side of the program, I wanted to gain experience creating a more robust GUI than the one I made for my ProjectGUI program, so I used JavaFX rather than Java Swing. The GUI is made up of the main menu, an options menu, a results menu, and dialog boxes for warnings and artist search. I also included a theme selector which allows the user to change the color of the entire application. To accomplish this, I stored different colors in an Observable list, and whenever the user selects a color, the CSS file associated with that color is dynamically loaded allowing for the color of the application to change without the user having to restart the application.
+                                        <br>
+                                        <br>
+                                        While working on this project, I learned about continuous integration, and I wanted to use these tools on my program so I could show a build status and a code coverage badge on the GitHub repo for the project. To track the build status of the program, I'm using Travis CI, I'm using Coveralls to track code coverage.
                                         </p>
                                     </div>
                                 </div>
@@ -297,7 +325,7 @@
         <div class="container-fluid text-center">
                 <footer role="contentinfo">
                     <p class="p-footer">
-                        Created by Darius McFarland - 2017
+                        Created by Darius McFarland - 2018
                     </p>
                 </footer>
         </div>
